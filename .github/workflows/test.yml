@@ -13,7 +13,7 @@ jobs:
       # actions/checkoutリポジトリのaction.ymlを利用する
       uses: actions/setup-ruby@v1
       with:
-        ruby-version: 2.7.x
+        ruby-version: 2.7.1
     - name: Test with test
       run: |
         gem install bundler
